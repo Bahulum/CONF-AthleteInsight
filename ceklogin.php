@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = mysqli_connect('localhost', 'root', '', 'athlete_insight');
+$conn = mysqli_connect('localhost', 'root', '', 'pendaftaran_pramuka');
 
 $username = stripslashes($_POST['username']);
 $password = md5($_POST['password']);
